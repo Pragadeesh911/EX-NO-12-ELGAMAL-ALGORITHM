@@ -52,12 +52,12 @@ int main() {
     scanf("%lld", &g);
 
     // Step 2: Alice inputs her private key
-    printf("Enter Ragul's private key: ");
+    printf("Enter Pragadeesh's private key: ");
     scanf("%lld", &privateKeyA);
 
     // Step 3: Compute Alice's public key (public_key = g^privateKeyA mod p)
     publicKeyA = modExp(g, privateKeyA, p);
-    printf("Ragul's public key: %lld\n", publicKeyA);
+    printf("Pragadeesh's public key: %lld\n", publicKeyA);
 
     // Step 4: Bob inputs the message to be encrypted and selects a random k
     printf("Enter the message to encrypt (as a number): ");
